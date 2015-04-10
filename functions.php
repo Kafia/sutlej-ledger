@@ -86,6 +86,10 @@ function col_index($string , $line){
 		else return $i;
 		
 	}
+	function  get_account_level($account_id) { 
+						$sql = "SELECT coa_level FROM sa_test_coa WHERE account_id".$account_id;
+						$sql = DB::query($account_id);
+						return $coa_level['coa_level'];
 		
 function getUserRoleID($user_id)
 	{
