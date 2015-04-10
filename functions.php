@@ -87,12 +87,10 @@ function col_index($string , $line){
 		
 	}
 	function  get_account_level($account_id) { 
-		$sql = "SELECT  db_prefix coa_level FROM ".DB_PREFIX.$_SESSION['co_prefix']."  WHERE account_id".$account_id;
-						$sql = DB::queryfirstfield($account_id);
+						$sql = "SELECT coa_level FROM sa_test_coa WHERE account_id".$account_id;
+						$sql = DB::query($account_id);
 						return $coa_level['coa_level'];
-	}
-
-   echo get_account_level(1);
+						echo  $coa_level['coa_level'];
 		
 function getUserRoleID($user_id)
 	{
