@@ -187,7 +187,7 @@ else {
 
  
  <!--  Voucher Body -->
- 
+ <form action="" method="post">
  <div class="panel-body"  style=" width:80%; margin-left: auto; margin-right: auto ;">
 
     <div class="row clearfix">
@@ -233,7 +233,7 @@ else {
     					
                         <td data-name="del">
                             <button name="del0" class='btn btn-danger glyphicon glyphicon-remove row-remove'></button>
-                            <button class='btn btn-success '>Save</button>
+                            <button id="save" class='btn btn-success '>Save</button>
                         </td>
 					</tr>
 				</tbody>
@@ -244,16 +244,8 @@ else {
 
 </div>
  </div>
+ </form>
 <?php } ?>
- 
-
- 
- 
- 
- 
- 
- 
-
 
 <script type="text/javascript">
 
