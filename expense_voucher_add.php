@@ -232,14 +232,15 @@ else {
 					
     					
                         <td data-name="del">
-                            <button nam"del0" class='btn btn-danger glyphicon glyphicon-remove row-remove'></button>
+                            <button name="del0" class='btn btn-danger glyphicon glyphicon-remove row-remove'></button>
+                            <button class='btn btn-success '>Save</button>
                         </td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
 	</div>
-	<a id="add_row" class="btn btn-default pull-right">Add Row</a>
+	<a id="add_row" class="btn btn-primary pull-right">Add Row</a>
 
 </div>
  </div>
