@@ -11,16 +11,7 @@
 <link rel="stylesheet" href="<?php echo SITE_ROOT; ?>css/dataTables.bootstrap.css" />
 <link rel="stylesheet" href="<?php echo SITE_ROOT; ?>/css/dataTables.tableTools.min.css" /> 
 <link rel="stylesheet" href="<?php echo SITE_ROOT; ?>/css/datepicker.css" /> 
-<link rel="stylesheet" href="<?php echo SITE_ROOT; ?>/css/select2.css" />
- 
-<!-- Theme Files -->
-<link rel="stylesheet" href="<?php echo SITE_ROOT; ?>/assets/css/font-awesome.css"  />
-     <!-- MORRIS CHART STYLES-->
-    <link href="<?php echo SITE_ROOT; ?>/assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
-        <!-- CUSTOM STYLES-->
-    <link href="<?php echo SITE_ROOT; ?>/assets/css/custom.css" rel="stylesheet" />
-     <!-- GOOGLE FONTS-->
-   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="<?php echo SITE_ROOT; ?>/css/select2.css" /> 
 
 <!-- Loading Java Scripts -->
   
@@ -37,19 +28,6 @@
 <script src="<?php echo SITE_ROOT; ?>js/jquery.dataTables.min.js"></script>
 <script src="<?php echo SITE_ROOT; ?>js/dataTables.bootstrap.js"></script>
 <script src="<?php echo SITE_ROOT; ?>js/dataTables.tableTools.min.js"></script>
-
-<!--- Theme Files --->
-<!-- JQUERY SCRIPTS -->
-    <script src="<?php echo SITE_ROOT; ?>assets/js/jquery-1.10.2.js"></script>
-      <!-- BOOTSTRAP SCRIPTS -->
-    <script src="<?php echo SITE_ROOT; ?>assets/js/bootstrap.min.js"></script>
-    <!-- METISMENU SCRIPTS -->
-    <script src="<?php echo SITE_ROOT; ?>assets/js/jquery.metisMenu.js"></script>
-     <!-- MORRIS CHART SCRIPTS -->
-     <script src="<?php echo SITE_ROOT; ?>assets/js/morris/raphael-2.1.0.min.js"></script>
-    <script src="<?php echo SITE_ROOT; ?>assets/js/morris/morris.js"></script>
-      <!-- CUSTOM SCRIPTS -->
-    <script src="<?php echo SITE_ROOT; ?>assets/js/custom.js"></script>
 
 <!-- Calender Widget -->
 <script language='javascript' src='<?php echo SITE_ROOT; ?>calendar/calendar.js'></script>
