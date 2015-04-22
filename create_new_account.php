@@ -2,11 +2,11 @@
 $company = DB::queryFirstRow('SELECT * FROM '.DB_PREFIX.'companies WHERE company_id = '.$_SESSION['company_id']);
 // Get Company Chart of Account Levels
 $levels = $company['coa_levels'];
-
+//this is new comment
 // Get Each Level's  code length
 function create_new_account() {
 
-
+// This is seccond Commit and second pull request
 
 
 
