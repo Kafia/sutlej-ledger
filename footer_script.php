@@ -1,8 +1,8 @@
 
 </div><!-- close row -->
-</div><!-- close container -->
+</div><!-- close container --> 
 <footer>
-<center> PHP Ledger Accounting System <a href="http://phpledger.com/"> phpLedger </a> </center>
+<center> phpLedger Accounting System <a href="http://phpledger.com/"> phpLedger </a> </center>
 </footer>
 <script type="text/javascript">
 
